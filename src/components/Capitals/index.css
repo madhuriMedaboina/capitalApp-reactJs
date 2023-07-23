@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #f8fafc;
+  height: 40vh;
+  width: 40vw;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #323f4b;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-left: 50px;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.select {
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  width: 200px;
+  height: 36px;
+  padding: 8px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #1e293b;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    padding-top: 44px;
+    padding-right: 64px;
+    padding-top: 64px;
+    max-width: 568px;
+  }
+}
